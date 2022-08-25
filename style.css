@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+iframe{
+    width: 80%;
+    height: 800px;
+    overflow: hidden;
+}
+.colunas{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.col1{
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+}
+#escola{
+    text-align: center;
+    font-size: 100px;
+}
+.col2{
+    text-align: center;
+    padding: 20px;
+    width: 1300px;
+}
+#sobre, #meio{
+    text-align: center;
+    font-size: 50px;
+}
+#comecar{
+    background-color: rgb(114, 172, 172);
+    font-size: 50px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+}
+#comecar:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
